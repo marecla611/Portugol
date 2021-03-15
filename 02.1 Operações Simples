@@ -1,0 +1,24 @@
+programa
+{
+	funcao inicio()
+	{
+		real x, y, soma, sub, div, mult
+		
+		escreva("Digite o primeiro número: ")
+		leia(x)
+
+		escreva("Digite o segundo número: ")
+		leia(y)
+
+		soma = x + y
+		sub = x - y
+		div = x / y
+		mult = x * y
+
+	     escreva("\n A soma dos números é igual a: ", soma)
+	     escreva("\n A subtração dos números é igual a: ", sub)
+	     escreva("\n A divisão dos números é igual a: ", div)
+	     escreva("\n A multiplicação dos números é igual a: ", mult, "\n")
+	     
+	}
+}

@@ -1,0 +1,28 @@
+programa
+{
+	funcao inicio()
+	{
+		inteiro matInt
+ [3][2]
+
+		matInt[0][0] = 10
+		matInt[0][1] = 20
+
+		matInt[1][0] = 30
+		matInt[1][1] = 40
+
+		matInt[2][0] = 50
+		matInt[2][1] = 60
+
+		para(inteiro linha = 0; linha < 3; linha++)
+		{
+			para(inteiro coluna = 0; coluna < 2; coluna++)
+			{
+				escreva(matInt[linha][coluna], "; ")
+			}
+
+			escreva("\n")
+		}
+		
+	}
+}

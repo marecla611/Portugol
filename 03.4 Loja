@@ -1,0 +1,44 @@
+programa
+{
+	funcao inicio()
+	{
+		const real preco_blusa = 60.00
+		const real preco_calca = 130.00
+		const real preco_sapato = 80.00
+		
+		cadeia nome
+		inteiro quantidade_blusas, quantidade_calcas, quantidade_sapatos 
+		real total_blusas, total_calcas, total_sapatos, total_pagar
+
+		escreva("Digite seu nome: ")
+		leia (nome)
+
+		escreva("\nDigite a quantidade de blusas que deseja comprar: ") 
+		leia(quantidade_blusas)
+		
+		escreva("\nDigite a quantidade de calças que deseja comprar: ") 
+		leia(quantidade_calcas)
+		
+		escreva("\nDigite a quantidade de sapatos que deseja comprar: ") 
+		leia(quantidade_sapatos)
+
+		total_blusas = preco_blusa * quantidade_blusas
+		total_calcas = preco_calca * quantidade_calcas
+		total_sapatos = preco_sapato * quantidade_sapatos
+		total_pagar = total_blusas + total_calcas + total_sapatos
+
+		escreva("\nCliente: ", nome, "\n")
+		escreva("=========================\n")
+		escreva("Blusas: ", quantidade_blusas, "\n")
+		escreva("Calças: ", quantidade_calcas, "\n")
+		escreva("Sapatos: ", quantidade_sapatos, "\n")
+		escreva("=========================\n")
+		escreva("Total a pagar: R$", total_pagar, "\n")
+		
+		
+
+		
+		
+		
+	}
+}

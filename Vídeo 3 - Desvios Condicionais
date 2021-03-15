@@ -1,0 +1,20 @@
+programa
+{
+	funcao inicio()
+	{
+	caracter carDig
+
+	escreva ("Digite uma letra ou um número: ") 
+	leia (carDig)
+
+	se(carDig == '0'ou carDig == '1' ou carDig == '2' ou carDig == '3' ou carDig == '4' ou carDig == '5' ou carDig == '6' ou carDig == '7' ou carDig == '8' ou carDig == '9')
+	
+	escreva("Foi digitado o número: ", carDig)
+
+	senao
+
+	escreva("Foi digitado a letra:  ", carDig)
+
+
+	}
+}

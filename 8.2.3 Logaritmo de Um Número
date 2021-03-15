@@ -1,0 +1,22 @@
+programa
+{
+	inclua biblioteca Matematica --> mat
+	
+	funcao inicio()
+	{
+		
+real numero, base, expoente
+
+		base = 2.0
+		numero = 32.0
+
+		expoente = mat.logaritmo(numero, base)
+		escreva("O logaritmo de ", numero, " na base ", base, " é igual a: ", expoente, "\n")
+
+		base = 25.0
+		numero = 625.0
+
+		expoente = mat.logaritmo(numero, base)
+		escreva("O logaritmo de ", numero, " na base ", base, " é igual a: ", expoente, "\n")
+	}
+}

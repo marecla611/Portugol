@@ -1,0 +1,22 @@
+programa
+{
+	inclua biblioteca Matematica --> mat
+	
+	funcao inicio()
+	{
+		
+real numero = 1.234578, arredondamento
+
+		arredondamento = mat.arredondar(numero, 3)
+		escreva("O número com 3 casas decimais é: ", arredondamento, "\n")
+
+		arredondamento = mat.arredondar(numero, 2)
+		escreva("O número com 2 casas decimais é: ", arredondamento, "\n")
+
+		arredondamento = mat.arredondar(numero, 1)
+		escreva("O número com 1 casa decimal é: ", arredondamento, "\n")
+
+		arredondamento = mat.arredondar(numero, 0)
+		escreva("O número sem casas decimais é: ", arredondamento, "\n")
+	}
+}

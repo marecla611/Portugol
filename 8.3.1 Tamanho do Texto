@@ -1,0 +1,19 @@
+programa
+{
+	inclua biblioteca Texto --> t
+	
+	funcao inicio()
+	{
+		
+    cadeia nome
+		inteiro tamanho
+
+		escreva("Digite seu nome: ")
+		leia(nome)
+
+		tamanho = t.numero_caracteres(nome)
+
+		escreva("Seu nome possui ", tamanho, " caracteres\n")
+
+	}
+}

@@ -1,0 +1,28 @@
+programa
+{
+	funcao inicio()
+	{
+		real primeira_nota, segunda_nota, terceira_nota, quarta_nota, soma, div
+
+		escreva("Digite a primeira nota: ")
+		leia(primeira_nota)
+
+		escreva("Digite a segunda nota: ")
+		leia(segunda_nota)
+
+		escreva("Digite a terceira nota: ")
+		leia(terceira_nota)
+		
+		escreva("Digite a quarta nota: ")
+		leia(quarta_nota)
+
+		soma = primeira_nota + segunda_nota + terceira_nota +  quarta_nota
+
+		div = soma / 4
+
+		escreva("\n A soma das notas é igual a: ", soma)
+		escreva("\n A sua média é igual a: ", div)
+	
+		
+	}
+}

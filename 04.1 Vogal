@@ -1,0 +1,18 @@
+programa
+{
+	funcao inicio()
+	{
+		caracter letra
+		
+		escreva("Digite uma letra: ")
+		leia(letra)
+		
+		se (letra == 'A' ou letra == 'a' ou letra == 'E' ou letra == 'e' ou letra == 'I' ou letra == 'i' ou letra == 'O' ou letra == 'o' ou letra == 'U' ou letra == 'u')
+		escreva(" A letra ", letra, " é uma vogal ")
+		
+		senao
+		
+		escreva(" A letra ", letra, " é uma consoante ")
+		
+	}
+}

@@ -1,0 +1,31 @@
+programa
+{
+	funcao inicio()
+	{
+		inteiro qtd, nroPontos, nroPontosEscritos
+		faca
+		{
+			escreva("Digite um número de 1 a 10: ")
+			leia(qtd)
+
+		} enquanto (qtd < 1 ou qtd > 10)
+	
+		escreva("\nDigite o número de pontos a serem impressos: ")
+		leia(nroPontos)
+		nroPontosEscritos = 0
+
+		enquanto(nroPontosEscritos < nroPontos)
+		{ 
+			nroPontosEscritos++
+		}
+
+		para(inteiro i = 0; i < qtd; i++)
+			escreva(i, "; ")
+			
+		escreva("\n")
+		
+		para(inteiro i = qtd; i >= 0; i--)
+			escreva(i, "; ")
+	}
+
+}

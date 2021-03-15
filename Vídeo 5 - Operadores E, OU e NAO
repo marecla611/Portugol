@@ -1,0 +1,21 @@
+programa
+{
+	funcao inicio()
+	{
+		logico jadeVai, bethVai
+		logico mariaVai, festaCompleta
+		
+		bethVai = falso
+		mariaVai = verdadeiro
+		jadeVai = nao bethVai ou mariaVai
+		festaCompleta = bethVai e mariaVai e jadeVai
+
+		escreva("Beth vai à festa: ", bethVai)
+		escreva("\nMaria vai à festa: ", mariaVai)
+		escreva("\nJade vai à festa: ", jadeVai)
+		escreva("\nFesta completa: ", festaCompleta)
+	
+				
+		
+	}
+}

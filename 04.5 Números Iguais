@@ -1,0 +1,32 @@
+rograma
+{
+
+	inclua biblioteca Util --> util
+
+	funcao inicio()
+	{
+		inteiro num_digitado, num_sorteado
+
+		escreva("Informe um número de 0 a 9: ")
+		leia(num_digitado)
+
+		limpa()
+
+		num_sorteado = util.sorteia(0, 9)
+
+		se (num_digitado >= 0 e num_digitado <=9)
+
+		se (num_digitado == num_sorteado)
+		escreva ("Parabéns! Os números são iguais!\n")
+
+		senao
+		escreva ("Que pena, os números são diferentes!\n")
+		
+			escreva("\nNúmero digitado: ", num_digitado)
+			escreva("\nNúmero sorteado: ",  num_sorteado, "\n")
+
+ 
+		
+		
+	}
+}

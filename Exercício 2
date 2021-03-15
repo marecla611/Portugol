@@ -1,0 +1,18 @@
+programa
+{
+	funcao inicio()
+	{
+		real km, litros, consumo
+
+		escreva(" Informe quantos quilômetros o veículo rodou: ")
+		leia(km)
+
+		escreva(" Informe a quantidade de combustível gasto: ")
+		leia(litros)
+
+		consumo = km / litros
+
+		escreva(" A autonomia de " , km/litros, " km por litro de combustivel ")
+		
+	}
+}

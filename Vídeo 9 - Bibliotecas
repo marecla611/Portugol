@@ -1,0 +1,17 @@
+programa
+{
+	inclua biblioteca Texto
+	
+	funcao inicio()
+	{
+		
+cadeia cadDig, cadMaiuscula
+
+		escreva("Informe uma cadeia de caracteres: ")
+		leia(cadDig)
+
+		cadMaiuscula = Texto.caixa_alta(cadDig)
+
+		escreva("Valor de cadMaiuscula: ", cadMaiuscula)
+	}
+}

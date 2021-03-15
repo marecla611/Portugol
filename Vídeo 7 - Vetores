@@ -1,0 +1,30 @@
+programa
+{
+	funcao inicio()
+	{
+		const inteiro QTD = 5
+		real altura[QTD], media
+		
+		media = 0
+		
+para(inteiro i = 0; i < QTD; i++)
+		{
+			escreva("Informe a altura ", i, ": ")
+			leia(altura[i])
+			media = media + altura[i]
+		}
+		
+media = media / QTD
+
+		limpa()
+		
+		escreva("A média das alturas ")
+		para(inteiro i = 0; i < QTD; i++)
+		{
+			escreva(altura[i], "; ")
+		}
+
+		escreva(" é: ", media)
+		escreva("\n")
+	}
+}
